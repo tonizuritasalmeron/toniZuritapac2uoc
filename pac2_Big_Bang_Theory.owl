@@ -1,0 +1,2295 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/antonio.zurita/ontologies/2022/3/pac2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/antonio.zurita/ontologies/2022/3/pac2">
+    <Prefix name="" IRI="http://www.semanticweb.org/antonio.zurita/ontologies/2022/3/pac2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Ontology about The Big Bang Theory  by Antonio Zurita
+Info:https://bigbangtheory.fandom.com/wiki/Main_Page</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Main_actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#female_character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#film_script"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#guest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male_character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#personality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scientific_advisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#screenwriter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secondary_actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tv_broadcast"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InterpretsA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsInterpretedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belong_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_episodies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#apperance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#famous"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sinopsis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amy_Farrah_Fowler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andrew_D._Weyman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barry_Kripke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bernadette_Rostenkowski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bill_Prady"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CBS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CTV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Saltzberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Favorite_tv_actor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Howard_Wolowitz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Burrows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Earl_Jones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jim_parsons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joel_Murray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Johnny_Galecki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kevin_Sussman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kunal_Nayyar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lee_Aronsohn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leonard_Hofstadter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leslie_Winkle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mark_Cendrowski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mayim_Bialik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Melissa_Rauch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peter_Chakos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raj_Koothrappali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robert_Cohen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sara_Gilbert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sheldon_Cooper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon_Helberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stan_Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stephen_Hawking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer_Glau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wil_Wheaton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aerospace_engineer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#affable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amazon_prime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best_actor_in_a_comedy_series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best_comedy_series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best_supporting_actor_in_a_comedy_series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best_supporting_actress_in_a_comedy_series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carrie_fisher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#depressive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderBA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderDP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderEC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderIL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderOCD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderSA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disorderSP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#egoist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#empathyless"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode112"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode113"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode136"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode137"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode160"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode161"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode184"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode185"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode208"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode209"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode232"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode233"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode256"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode257"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode65"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode88"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#episode89"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#experimental_physicist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#favorite_tv_actress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#favorite_tv_comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ignorant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#john_Ross_Bowle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kaley_Cuoco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methodical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microbiologist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neurosurgeon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#saleswoman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sarcastic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stuart_Bloom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_bad_fsh_paradigm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_barbarian_sublimation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_big_bran_hypothesis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_codpiece_topology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_fuzzy_boots_corallary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the_luminous_fish_effect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#theoretical_physicist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waitress"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#actor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#InterpretsA"/>
+            <Class IRI="#character"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#character"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#IsInterpretedBy"/>
+            <Class IRI="#actor"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#episode"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#belong_to"/>
+            <Class IRI="#season"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#season"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_episodies"/>
+            <Class IRI="#episode"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Main_actor"/>
+        <Class IRI="#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#actor"/>
+        <Class IRI="#human_team"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adward"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#characteristic"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#director"/>
+        <Class IRI="#staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#episode"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female_character"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#film_script"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guest"/>
+        <Class IRI="#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_team"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male_character"/>
+        <Class IRI="#character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personality"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profession"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scientific_advisor"/>
+        <Class IRI="#staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#screenwriter"/>
+        <Class IRI="#staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#season"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secondary_actor"/>
+        <Class IRI="#actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#staff"/>
+        <Class IRI="#human_team"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tv_broadcast"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Amy_Farrah_Fowler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#Andrew_D._Weyman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Barry_Kripke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Bernadette_Rostenkowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#screenwriter"/>
+        <NamedIndividual IRI="#Bill_Prady"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Bill_Prady"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tv_broadcast"/>
+        <NamedIndividual IRI="#CBS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tv_broadcast"/>
+        <NamedIndividual IRI="#CTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#screenwriter"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scientific_advisor"/>
+        <NamedIndividual IRI="#David_Saltzberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#David_Saltzberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#Favorite_tv_actor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Howard_Wolowitz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#James_Burrows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#James_Burrows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#James_Earl_Jones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Jim_parsons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Jim_parsons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#Joel_Murray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Joel_Murray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Johnny_Galecki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Johnny_Galecki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Kevin_Sussman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#secondary_actor"/>
+        <NamedIndividual IRI="#Kevin_Sussman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Kunal_Nayyar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Kunal_Nayyar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#screenwriter"/>
+        <NamedIndividual IRI="#Lee_Aronsohn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Lee_Aronsohn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Leonard_Hofstadter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Leslie_Winkle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#Mark_Cendrowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Mark_Cendrowski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Mayim_Bialik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Mayim_Bialik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Melissa_Rauch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Melissa_Rauch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Penny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#Peter_Chakos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Peter_Chakos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Raj_Koothrappali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#screenwriter"/>
+        <NamedIndividual IRI="#Robert_Cohen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#staff"/>
+        <NamedIndividual IRI="#Robert_Cohen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#S1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Sara_Gilbert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#secondary_actor"/>
+        <NamedIndividual IRI="#Sara_Gilbert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#Sheldon_Cooper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#Simon_Helberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Simon_Helberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Stan_Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Stephen_Hawking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Summer_Glau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#Wil_Wheaton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#aerospace_engineer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#affable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tv_broadcast"/>
+        <NamedIndividual IRI="#amazon_prime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#best_actor_in_a_comedy_series"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#best_comedy_series"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#best_supporting_actor_in_a_comedy_series"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#best_supporting_actress_in_a_comedy_series"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#carrie_fisher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#depressive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderBA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderDP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderEC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderIL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderOCD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderSA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#characteristic"/>
+        <NamedIndividual IRI="#disorderSP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#egoist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#empathyless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode112"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode113"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode136"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode137"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode160"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode161"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode184"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode185"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode208"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode209"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode232"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode233"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode256"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode257"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode65"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode88"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#episode"/>
+        <NamedIndividual IRI="#episode89"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#experimental_physicist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#favorite_tv_actress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adward"/>
+        <NamedIndividual IRI="#favorite_tv_comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#ignorant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#john_Ross_Bowle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#secondary_actor"/>
+        <NamedIndividual IRI="#john_Ross_Bowle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_actor"/>
+        <NamedIndividual IRI="#kaley_Cuoco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#kaley_Cuoco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#methodical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#microbiologist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#neurosurgeon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#nice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#season"/>
+        <NamedIndividual IRI="#s9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#saleswoman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#sarcastic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie_big_bang_theory"/>
+        <NamedIndividual IRI="#serie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#personality"/>
+        <NamedIndividual IRI="#shy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#character"/>
+        <NamedIndividual IRI="#stuart_Bloom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#film_script"/>
+        <NamedIndividual IRI="#the_bad_fsh_paradigm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#film_script"/>
+        <NamedIndividual IRI="#the_barbarian_sublimation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#film_script"/>
+        <NamedIndividual IRI="#the_big_bran_hypothesis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#film_script"/>
+        <NamedIndividual IRI="#the_codpiece_topology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#film_script"/>
+        <NamedIndividual IRI="#the_fuzzy_boots_corallary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#film_script"/>
+        <NamedIndividual IRI="#the_luminous_fish_effect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#theoretical_physicist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#profession"/>
+        <NamedIndividual IRI="#waitress"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Amy_Farrah_Fowler"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Amy_Farrah_Fowler"/>
+        <Literal>female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Barry_Kripke"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Barry_Kripke"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Bernadette_Rostenkowski"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Bernadette_Rostenkowski"/>
+        <Literal>female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Howard_Wolowitz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Howard_Wolowitz"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#James_Earl_Jones"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#famous"/>
+        <NamedIndividual IRI="#James_Earl_Jones"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Jim_parsons"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Johnny_Galecki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Kevin_Sussman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Kunal_Nayyar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Leonard_Hofstadter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Leonard_Hofstadter"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Leslie_Winkle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Leslie_Winkle"/>
+        <Literal>female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Mayim_Bialik"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Melissa_Rauch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Penny"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Penny"/>
+        <Literal>female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Raj_Koothrappali"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Raj_Koothrappali"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Robert_Cohen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#S1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#S1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Sheldon_Cooper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#Sheldon_Cooper"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Simon_Helberg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Stan_Lee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#famous"/>
+        <NamedIndividual IRI="#Stan_Lee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Stephen_Hawking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#famous"/>
+        <NamedIndividual IRI="#Stephen_Hawking"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Summer_Glau"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#famous"/>
+        <NamedIndividual IRI="#Summer_Glau"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#Wil_Wheaton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#famous"/>
+        <NamedIndividual IRI="#Wil_Wheaton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#aerospace_engineer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#carrie_fisher"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#famous"/>
+        <NamedIndividual IRI="#carrie_fisher"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderBA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderBA"/>
+        <Literal>bees allergy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderD"/>
+        <Literal>depresion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderDP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderDP"/>
+        <Literal>diction problems</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderEC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderEC"/>
+        <Literal>extreme competitiveness</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderIL"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderIL"/>
+        <Literal>lactose intolerance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderM"/>
+        <Literal>myopia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderOCD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderOCD"/>
+        <Literal>obsessive compulsive disorder</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderPI"/>
+        <Literal>peanut intolerance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderSA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderSA"/>
+        <Literal>social anxiety</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#disorderSP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#disorderSP"/>
+        <Literal>socialization problems</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode112"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">112</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode113"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">113</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode136"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">136</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode137"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">137</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode160"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">160</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode161"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">161</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode184"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">184</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode185"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">185</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode19"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode208"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">208</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode209"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode232"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">232</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode233"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">233</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode256"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">256</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode257"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">257</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode41"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode42"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode64"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode65"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode88"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">88</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#episode89"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">89</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#experimental_physicist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#kaley_Cuoco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#microbiologist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#neurosurgeon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#s9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#s9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#saleswoman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#place"/>
+        <NamedIndividual IRI="#serie"/>
+        <Literal>Pasadena</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#serie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#apperance"/>
+        <NamedIndividual IRI="#stuart_Bloom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sex"/>
+        <NamedIndividual IRI="#stuart_Bloom"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#theoretical_physicist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cod"/>
+        <NamedIndividual IRI="#waitress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#InterpretsA"/>
+        <ObjectProperty IRI="#InterpretsA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsInterpretedBy"/>
+        <ObjectProperty IRI="#IsInterpretedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belong_to"/>
+        <ObjectProperty IRI="#has_episodies"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#InterpretsA"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InterpretsA"/>
+        <Class IRI="#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsInterpretedBy"/>
+        <Class IRI="#character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belong_to"/>
+        <Class IRI="#episode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_episodies"/>
+        <Class IRI="#season"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InterpretsA"/>
+        <Class IRI="#character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsInterpretedBy"/>
+        <Class IRI="#actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belong_to"/>
+        <Class IRI="#season"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_episodies"/>
+        <Class IRI="#episode"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#apperance"/>
+        <Class IRI="#actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#apperance"/>
+        <Class IRI="#character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cod"/>
+        <Class IRI="#characteristic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cod"/>
+        <Class IRI="#episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cod"/>
+        <Class IRI="#profession"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cod"/>
+        <Class IRI="#season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#famous"/>
+        <Class IRI="#human_team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#adward"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#characteristic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#film_script"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#human_team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#personality"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#profession"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#tv_broadcast"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#place"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sex"/>
+        <Class IRI="#actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sex"/>
+        <Class IRI="#character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sinopsis"/>
+        <Class IRI="#film_script"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#Serie_big_bang_theory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#season"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#apperance"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cod"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#famous"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#place"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sex"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sinopsis"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#actor"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#famous"/>
+                <Variable IRI="urn:swrl:var#p"/>
+                <Variable IRI="urn:swrl:var#f"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#equal">
+                <Variable IRI="urn:swrl:var#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#apperance"/>
+                <Variable IRI="urn:swrl:var#p"/>
+                <Variable IRI="urn:swrl:var#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#guest"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#character"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#sex"/>
+                <Variable IRI="urn:swrl:var#p"/>
+                <Variable IRI="urn:swrl:var#s"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#equal">
+                <Variable IRI="urn:swrl:var#s"/>
+                <Literal>female</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#female_character"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#character"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#sex"/>
+                <Variable IRI="urn:swrl:var#p"/>
+                <Variable IRI="urn:swrl:var#s"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#equal">
+                <Variable IRI="urn:swrl:var#s"/>
+                <Literal>male</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#male_character"/>
+                <Variable IRI="urn:swrl:var#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Amy_Farrah_Fowler</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Amy_Farrah_Fowler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Andrew_D._Weyman</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Andrew_D._Weyman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Barry_Kripke</IRI>
+        <Literal xml:lang="en">https://bigbangtheory.fandom.com/wiki/Barry_Kripke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Bernadette_Rostenkowski</IRI>
+        <Literal xml:lang="en">https://bigbangtheory.fandom.com/wiki/Bernadette_Rostenkowski-Wolowitz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bill_Prady</IRI>
+        <Literal xml:lang="en">https://es.wikipedia.org/wiki/Bill_Prady</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chuck_Lorre</IRI>
+        <Literal xml:lang="en">https://es.wikipedia.org/wiki/Chuck_Lorre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#David_Saltzberg</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/David_Saltzberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Howard_Wolowitz</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Howard_Wolowitz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InterpretsA</IRI>
+        <Literal xml:lang="en">Actor interpret one character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsInterpretedBy</IRI>
+        <Literal xml:lang="en">Character interpreted by actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#James_Burrows</IRI>
+        <Literal xml:lang="en">https://es.wikipedia.org/wiki/James_Burrows</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#James_Earl_Jones</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/James_Earl_Jones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Jim_parsons</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Jim_Parsons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Joel_Murray</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Joel_Murray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Johnny_Galecki</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Johnny_Galecki</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Kevin_Sussman</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Kevin_Sussman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Kunal_Nayyar</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Kunal_Nayyar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lee_Aronsohn</IRI>
+        <Literal xml:lang="en">https://es.wikipedia.org/wiki/Lee_Aronsohn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Leonard_Hofstadter</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Leonard_Hofstadter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Leslie_Winkle</IRI>
+        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q258233</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_actor</IRI>
+        <Literal>Class with main actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mark_Cendrowski</IRI>
+        <Literal xml:lang="en">https://es.wikipedia.org/wiki/Mark_Cendrowski</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Mayim_Bialik</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Mayim_Bialik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Melissa_Rauch</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Melissa_Rauch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Penny</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Penny_(The_Big_Bang_Theory)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Raj_Koothrappali</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Raj_Koothrappali</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Robert_Cohen</IRI>
+        <Literal xml:lang="en">https://es.wikipedia.org/wiki/Robert_Cohen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Sara_Gilbert</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Sara_Gilbert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Serie_big_bang_theory</IRI>
+        <Literal>main class Big Bang Theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Serie_big_bang_theory</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/The_Big_Bang_Theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Sheldon_Cooper</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Sheldon_Cooper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Simon_Helberg</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Simon_Helberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stan_Lee</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Stan_Lee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stephen_Hawking</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Stephen_Hawking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Summer_Glau</IRI>
+        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q236854</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Wil_Wheaton</IRI>
+        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q264699</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#actor</IRI>
+        <Literal>Class of actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#adward</IRI>
+        <Literal>Class lase contains the possible prizes of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#adward</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_The_Big_Bang_Theory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belong_to</IRI>
+        <Literal xml:lang="en">The episodes that belong to a season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#carrie_fisher</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Carrie_Fisher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#character</IRI>
+        <Literal>Class with the characters that appear in the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#character</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Category:The_Big_Bang_Theory_characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#characteristic</IRI>
+        <Literal>Class with characteristic values of the characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cod</IRI>
+        <Literal>object&apos;s index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#director</IRI>
+        <Literal>Class with directors of different episodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#episode</IRI>
+        <Literal>Class with the episodes that the series has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#episode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://es.wikipedia.org/wiki/Anexo:Episodios_de_The_Big_Bang_Theory#Episodios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#female_character</IRI>
+        <Literal>Class with the female characters of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#film_script</IRI>
+        <Literal>Class with the scripts made</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#guest</IRI>
+        <Literal>Class of actors invited to the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_episodies</IRI>
+        <Literal xml:lang="en">the episodies that has a season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#human_team</IRI>
+        <Literal>Class with the team of people who make up the series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#john_Ross_Bowle</IRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/John_Ross_Bowie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#kaley_Cuoco</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/Kaley_Cuoco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#male_character</IRI>
+        <Literal>Class with the male characters of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#personality</IRI>
+        <Literal>Class with the different personalities of the characters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#profession</IRI>
+        <Literal>Class with the characters&apos; professions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#scientific_advisor</IRI>
+        <Literal>Class with the advisors of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#screenwriter</IRI>
+        <Literal>Class with the writers of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#season</IRI>
+        <Literal>Class with the seasons that corresponds to the years in TV broadcast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#season</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://es.wikipedia.org/wiki/Anexo:Episodios_de_The_Big_Bang_Theory#Temporadas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#secondary_actor</IRI>
+        <Literal>Class with secondary actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sinopsis</IRI>
+        <Literal>fim script&apos;s summary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#staff</IRI>
+        <Literal>Class with non-actor staff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#stuart_Bloom</IRI>
+        <Literal xml:lang="en">https://www.wikidata.org/wiki/Q3976223</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tv_broadcast</IRI>
+        <Literal>Class with the tv networks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="en">https://dbpedia.org/page/The_Big_Bang_Theory</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
